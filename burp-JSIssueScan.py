@@ -140,7 +140,7 @@ class BurpExtender(IBurpExtender, ITab, AbstractTableModel ):
 
             print("[+] Reading current scanner issues")
 
-            issues = callbacks.getScanIssues("https://www.onthedot.com/")
+            issues = callbacks.getScanIssues("https://www.example.com/")
 
             ip = IssueParser()
 
